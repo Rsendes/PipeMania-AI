@@ -1,0 +1,20 @@
+Regras:
+
+    Tẽm de haver conexão entre todas as peças
+    Nenhuma peça pode estar desconectada ou isolada
+    Cada peça tem 4 rotações possiveis menos as de ligação que têm 2
+
+Estado Inicial
+    Lista com lista de linhas com objetos do tipo Peça
+
+Restrições:
+
+    Peças não podem estar ligadas ao exterior (-possibilidades)
+    Nenhum fecho pode estar apontado a outro fecho (-possibildiades)
+    Haverá algumas peças obrigatórias (não podem rodar)
+    Peças perto de obrigatórias apontadas têm de estar conectadas a esta(-possibildiades)
+    Peça perto não obrigatória mas já não tem possibilidade de conexão, não pode estar conectada (-possibilidades)
+    Peça perto não obrigatória mas tem possibilidade de conexão, tem de estar conectada
+
+Goal:
+    Todas as peças estão todas conectadas, (tem de haver um caminho que passe por todas elas)
